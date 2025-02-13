@@ -1,12 +1,9 @@
 import React from 'react';
-import { userContext } from './context';
-import Content from './context-content';
+import Router3 from './router3';
 
 function App() {
   return(
-    <userContext.Provider value={'Tom Jerry'}>
-      <Content/>
-    </userContext.Provider>  
+    <Router3 /> 
   )
 }
 
